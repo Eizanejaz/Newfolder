@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="id">
+    <button>submit</button>
+    <script>
+        var input = document.querySelector('input')
+        var btn = document.querySelector('button')
+
+        var pattern = /apple|cherry|peache/g
+        var pattern = /[a-z]/g
+        btn.addEventListener('click',()=>{
+            if(input.value.match(pattern)){
+                document.write('ok')
+
+            }else{
+                document.write
+                ('not okay ')
+            }
+        })
+    </script>
+</body>
+</html>
